@@ -218,6 +218,7 @@ nav .logo img {
     background: var(--primary-gradient);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    color: #fff; /* Changed to white */
     animation: text-shine 2s infinite alternate;
 }
 
@@ -660,4 +661,5 @@ footer {
 }
 .toggle .line3 {
     transform: rotate(45deg) translate(-5px, -6px);
+
 }
