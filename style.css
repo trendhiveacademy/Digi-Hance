@@ -215,7 +215,7 @@ nav .logo img {
 .hero h1 {
     font-size: 3.5em;
     margin-bottom: 20px;
-    background: var(--primary-gradient);
+   /* background: var(--primary-gradient); */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: #fff; /* Changed to white */
@@ -663,3 +663,4 @@ footer {
     transform: rotate(45deg) translate(-5px, -6px);
 
 }
+
