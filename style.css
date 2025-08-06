@@ -206,18 +206,16 @@ nav .logo img {
 }
 
 .hero-content {
-    max-width: 800px;
+    max-width: 900px;
     padding: 20px;
     z-index: 1;
     position: relative;
 }
 
+/* UPDATED H1 STYLE */
 .hero h1 {
     font-size: 3.5em;
-    margin-bottom: 20px;
-   /* background: var(--primary-gradient); */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    margin-bottom: 10px;
     color: #fff; /* Changed to white */
     animation: text-shine 2s infinite alternate;
 }
@@ -453,7 +451,7 @@ h2 {
     list-style: none;
     margin-top: 15px;
     padding-left: 0;
-    flex-grow: 1; /* Pushes content to the bottom */
+    flex-grow: 1;
 }
 
 .price-card li {
@@ -661,6 +659,4 @@ footer {
 }
 .toggle .line3 {
     transform: rotate(45deg) translate(-5px, -6px);
-
 }
-
